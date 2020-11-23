@@ -53,6 +53,9 @@ def insertions_to_palindrome(text: str) -> int:
 
 
 def solve_excercice(filepath):
+    """
+    Solve a palindrome excercice from a filepath and print the result.
+    """
     print("-"*50)
     print(f"solving {filepath}")
     with open(filepath) as file:
